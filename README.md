@@ -50,3 +50,10 @@ When the reviewer is happy with the pull requiest the changes will be merged wit
 
 ## Issue Process
 Add tasks, features, or discovered bugs with **Issues**
+
+### Status
+What files have been changed?
+### Log
+Log of all the commits made
+### Reset
+Reset a specified commit given the hash of that commit
