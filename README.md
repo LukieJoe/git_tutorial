@@ -1,21 +1,21 @@
-## This is a starter git tutorial thing
+# This is a starter git tutorial thing
 
-# Clone
+## Clone
 
-# Pull
+## Pull
 
-# Branch
+## Branch
 
-# Add
+## Add
 
-# Commit
+## Commit
 
-# Push
+## Push
 
-# Pull Request
+## Pull Request
 
-# Review Process
+## Review Process
 
-# Issue Process
+## Issue Process
 
-# Resolved w/ master branch
+## Resolved w/ master branch
