@@ -57,3 +57,5 @@ What files have been changed?
 Log of all the commits made
 ### Reset
 Reset a specified commit given the hash of that commit
+### Diff
+Check or Show the difference between commits
