@@ -59,3 +59,5 @@ Log of all the commits made
 Reset a specified commit given the hash of that commit
 ### Diff
 Check or Show the difference between commits
+
+Added this new line
