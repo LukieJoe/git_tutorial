@@ -50,3 +50,5 @@ When the reviewer is happy with the pull requiest the changes will be merged wit
 
 ## Issue Process
 Add tasks, features, or discovered bugs with **Issues**
+
+Added this new line
