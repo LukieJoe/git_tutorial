@@ -1,0 +1,65 @@
+## Run one time -- setup upstream
+
+# check with git remote -v | grep SIGBlockchain
+
+# Add the remote, call it "upstream":
+
+git remote add upstream https://github.com/SIGBlockchain/Project.git
+
+# Fetch all the branches of that remote into remote-tracking branches,
+# such as upstream/master:
+
+## Update your fork with SIGBlockchain
+
+git fetch upstream
+
+# Make sure that you're on your master branch:
+
+git checkout master
+
+# Rewrite your master branch so that any commits of yours that
+# aren't already in upstream/master are replayed on top of that
+# other branch:
+
+# git rebase upstream/master
+
+# ALT
+# Preserve your commits
+
+git merge upstream/master
+
+git commit
+
+# update your remote repo
+# on github.com
+
+git push origin master
+
+## PULL
+
+git pull
+
+## PUSH
+
+git push origin master
+
+## Pull Request
+
+git request-pull -p <target> <target_repo> <your_branch>
+
+# save the SHA1 in $(update) and send that msg via mail (or your favorite method)
+
+## Resolve Pull
+
+git fetch origin $(update)
+git commit -m 'fetched devel'
+
+git merge origin/$(update)
+
+## if merge fails edit the failing files to resolve the merge issue
+
+git add .
+
+git commit -m 'fixed merge comflict'
+
+git push
